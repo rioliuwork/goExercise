@@ -24,6 +24,7 @@ package topics
 输入：nums = [3,3], target = 6
 输出：[0,1]
 */
+
 func TwoSum(nums []int, target int) []int {
 	var result []int
 	for i := 0; i < len(nums); i++ {
@@ -38,4 +39,3 @@ func TwoSum(nums []int, target int) []int {
 	}
 	return nil
 }
-
