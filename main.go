@@ -1,7 +1,9 @@
 package main
 
-import "leetCode/function"
+import (
+	"leetCode/goroutine"
+)
 
 func main() {
-	function.ReflectFunctionExercise()
+	goroutine.SelectChannelExercise()
 }
