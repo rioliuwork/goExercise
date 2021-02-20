@@ -1,9 +1,9 @@
 package main
 
 import (
-	"leetCode/goroutine"
+	"leetCode/file"
 )
 
 func main() {
-	goroutine.SelectChannelExercise()
+	file.CopyFileByOs()
 }
